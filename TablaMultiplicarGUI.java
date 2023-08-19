@@ -19,7 +19,7 @@ public class TablaMultiplicarGUI {
                     StringBuilder tabla = new StringBuilder();
                     tabla.append("Tabla de multiplicar del ").append(numero).append(":\n");
 
-                    for (int i = 1; i <= 10; i++) {
+                    for (int i = 1; i <= 20; i++) {
                         int resultado = numero * i;
                         tabla.append(numero).append(" x ").append(i).append(" = ").append(resultado).append("\n");
                     }
